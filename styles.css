@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
 }
 
 .logo {
@@ -16,9 +15,13 @@
     gap: 16px;
 }
 
-.body-sections {
+.first-section-container {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 32px;
 }
 
 .footer {
@@ -28,6 +31,55 @@
 .footer p {
     text-align: center;
     color: #E5E7Eb;
+}
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.left-card {
+    flex: 1;
+}
+
+.right-card {
+    flex: 1;
+}
+
+.right-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.left-card h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+.left-card p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.second-section {
+    background-color: white;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-width: 1px;
 }
 
 a {
